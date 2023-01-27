@@ -1,14 +1,31 @@
-# Welcome to your CDK TypeScript project
+# AWS CDK Jest Stack
 
-This is a blank project for CDK development with TypeScript.
+This repository contains a set of utility functions and Jest matchers for testing AWS Cloud Development Kit (CDK) applications. The repository allows developers to write tests for their CDK applications using the popular Jest testing framework.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+## Getting Started
 
-## Useful commands
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+### Prerequisites
+
+- AWS CLI
+- AWS CDK
+- Node.js
+- Jest
+
+### Installing
+
+To install the required dependencies, run the following command:
+
+### Running the tests
+
+To run the test cases, execute the following command:
+
+## Built With
+
+- [AWS CDK](https://aws.amazon.com/cdk/) - The cloud development kit used
+- [Jest](https://jestjs.io/) - The testing framework used
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.

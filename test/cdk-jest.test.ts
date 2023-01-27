@@ -1,5 +1,5 @@
 import { Template } from 'aws-cdk-lib/assertions';
-import * as cdk from 'aws-cdk-lib/core';
+import * as cdk from 'aws-cdk-lib';
 import * as cdkdemo from '../lib/cdk-jest-stack';
 import { SynthUtils } from '@aws-cdk/assert/lib/synth-utils';
 
