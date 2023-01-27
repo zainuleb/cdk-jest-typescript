@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Snapshot testing 1`] = `
+exports[`Snapshot testing should match the expected snapshot 1`] = `
 {
   "Resources": {
     "CdkQueueBA7F247D": {
