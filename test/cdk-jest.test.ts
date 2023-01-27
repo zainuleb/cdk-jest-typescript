@@ -16,3 +16,9 @@ test('Testing Queue Name', () => {
     QueueName: 'cd-demo-queue',
   });
 });
+
+test('Snapshot testing', () => {
+  const stack = new cdkdemo.CdkJestStack(app, 'snapshot-test');
+
+  expect(SynthUtils.toCloudFormation(stack)).toMatchSnapshot();
+});

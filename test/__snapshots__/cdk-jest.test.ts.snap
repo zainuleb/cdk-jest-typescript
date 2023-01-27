@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot testing 1`] = `
+{
+  "Resources": {
+    "CdkQueueBA7F247D": {
+      "DeletionPolicy": "Delete",
+      "Properties": {
+        "QueueName": "cd-demo-queue",
+      },
+      "Type": "AWS::SQS::Queue",
+      "UpdateReplacePolicy": "Delete",
+    },
+  },
+}
+`;
