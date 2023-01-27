@@ -6,11 +6,8 @@ export class CdkJestStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
-    // The code that defines your stack goes here
-
-    // example resource
-    // const queue = new sqs.Queue(this, 'CdkJestQueue', {
-    //   visibilityTimeout: cdk.Duration.seconds(300)
-    // });
+    const queue = new cdk.aws_sqs.Queue(this, 'CdkQueue', {
+      queueName: 'cd-demo-queue',
+    });
   }
 }
